@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="India1">"C:\Users\NAIYNIKA REDDY\Downloads\drawable\india1.png"</drawable>
+    <drawable name="India2">"C:\Users\NAIYNIKA REDDY\Downloads\drawable\india2.png"</drawable>
+    <drawable name="india1">"C:\Users\NAIYNIKA
+        REDDY\AndroidStudioProjects\MyApplication\app\src\main\res\drawable\drawable\india1.png"
+    </drawable>
+    <drawable name="india2">"C:\Users\NAIYNIKA
+        REDDY\AndroidStudioProjects\MyApplication\app\src\main\res\drawable\drawable\india2.png"
+    </drawable>
+</resources>

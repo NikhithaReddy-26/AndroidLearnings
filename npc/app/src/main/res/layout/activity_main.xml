@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="30dp"
+            android:text="Fill the Details"
+            android:textSize="35dp" />
+    </LinearLayout>
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="395dp"
+        android:layout_height="279dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="111dp"
+            android:layout_height="45dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="enter name"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="111dp"
+            android:layout_height="52dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="contact number"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="enter phone number"
+            android:inputType="number"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="127dp"
+            android:layout_height="54dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="City"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="enter the city"
+            android:textSize="25dp" />
+    </GridLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="193dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="225dp"
+        android:text="Submit" />
+
+</RelativeLayout>
